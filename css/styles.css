@@ -2,6 +2,11 @@
 body{
 margin: 0;
 padding: 0;
+background: url("../images/background2.jpg");
+background-position:top;
+background-repeat: no-repeat;
+background-size: 1920px;
+
 }
 
 /*nav bar*/
@@ -17,6 +22,7 @@ width: 180px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 20px;
   text-decoration: none;
+
 }
 header li a:last-child{
   margin-right: 100px;
@@ -41,6 +47,7 @@ border-bottom: 3px solid #079dbd;
 header ul li{
   display: inline-block;
 float: right;
+
 }
 header ul li :hover  {
   background: black;
@@ -62,8 +69,35 @@ header li:first-child{
   float: left;
   margin-top: 5px;
 }
+ main {
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 250px;
+color: white;
+}
+
+ main ul {
+
+padding-left: 120px;
+padding-right: 120px;
+  border: 2px white solid;
+  list-style: none;
+  text-align: center;
+border-radius: 40px;
+font-weight: normal;
+margin-top: 50px;
+font-family: 'Kanit', sans-serif;
+}
+main img {
+  width: 250px;
+  height: 250px;
+  border-radius:300px;
+  border: 2px white solid;
+}
 /*Big screen */
-@media (max-width: 1249px), handheld and (orientation: landscape){
+@media (max-width: 1266px), handheld and (orientation: landscape){
   .icons{
     width: 30px;
     height: 30px;
@@ -78,10 +112,10 @@ padding-right: 12px;
       margin-right: 10px;
     }
 /*medium sized screen*/
-  @media (max-width: 977px), handheld and (orientation: landscape){
+  @media (max-width: 994px), handheld and (orientation: landscape){
 
 .icons{
-  padding-left:  15px;
+  padding-left:  17px;
 }
     header a{
       width: 50px;
@@ -93,7 +127,7 @@ padding-right: 12px;
     }
 
     /*small screen*/
-    @media (max-width: 777px), handheld and (orientation: landscape){
+    @media (max-width: 794px), handheld and (orientation: landscape){
 
 header li a img{
 display: none;
