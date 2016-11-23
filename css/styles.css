@@ -95,7 +95,7 @@ align-items: center;
 flex-direction: column;
 color: white;
 min-height: 100%;
-
+margin-bottom: -47px;
 }
 
  main ul {
@@ -157,7 +157,7 @@ border: none;
  line-height: 40px
 }
 /*Big screen */
-@media (max-width: 1266px), handheld and (orientation: landscape){
+@media (max-width: 1286px), handheld and (orientation: landscape){
   .icons{
     width: 30px;
     height: 30px;
@@ -172,7 +172,7 @@ padding-right: 12px;
       margin-right: 10px;
     }
 /*medium sized screen*/
-  @media (max-width: 994px), handheld and (orientation: landscape){
+  @media (max-width: 1014px), handheld and (orientation: landscape){
 
 .icons{
   padding-left:  17px;
@@ -187,7 +187,7 @@ padding-right: 12px;
     }
 
     /*small screen*/
-    @media (max-width: 794px), handheld and (orientation: landscape){
+    @media (max-width: 814px), handheld and (orientation: landscape){
 
 header li a img{
 display: none;
