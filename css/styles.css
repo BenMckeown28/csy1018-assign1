@@ -1,12 +1,22 @@
 /*Name:Benjamin George Jong McKeown Student number:16424393*/
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
 body{
+display: flex;
+min-height: 100vh;
+flex-direction: column;
 margin: 0;
 padding: 0;
 background: url("../images/background2.jpg");
 background-position:top;
 background-repeat: no-repeat;
-background-size: 1920px;
-
+background-size: 100%;
+overflow-x: hidden;
+}
+.wrapper{
+  height: 100%;
 }
 
 /*nav bar*/
@@ -22,7 +32,7 @@ width: 180px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 20px;
   text-decoration: none;
-
+top: 0;
 }
 header li a:last-child{
   margin-right: 100px;
@@ -69,6 +79,7 @@ header li:first-child{
   float: left;
   margin-top: 5px;
 }
+/* Content */
  main {
   display: flex;
 justify-content: center;
@@ -76,6 +87,8 @@ align-items: center;
 flex-direction: column;
 margin-top: 250px;
 color: white;
+min-height: 100%;
+
 }
 
  main ul {
@@ -96,6 +109,35 @@ main img {
   border-radius:300px;
   border: 2px white solid;
 }
+
+/*footer*/
+
+
+
+footer ul{
+display: flex;
+  width:100%;
+  background:#191717;
+justify-content: center;
+padding: 10px;
+border-top: 3px solid #079dbd;
+}
+
+footer li{
+list-style: none;
+padding: 0 40px;
+}
+footer img{
+  width: 40px;
+  height: 40px;
+opacity: 0.8;
+}
+footer img:hover{
+  opacity: 1;
+transition: all .4s ease-in-out;
+transform: scale(1.2);
+}
+
 /*Big screen */
 @media (max-width: 1266px), handheld and (orientation: landscape){
   .icons{
