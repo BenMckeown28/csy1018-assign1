@@ -1,4 +1,6 @@
 /*Name:Benjamin George Jong McKeown Student number:16424393*/
+/*Styling of the webpage*/
+
 *{
   margin:0;
   padding:0;
@@ -11,16 +13,13 @@ body{
 background: url("../images/background2.jpg");
 background-position:top;
 background-repeat: no-repeat;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 overflow-x: hidden;
+width:: 100%;
 
 }
 
 /*nav bar*/
-
+/*To change the size of the tabs*/
 header a{
 display:flex;;
 height: 50px;
@@ -30,7 +29,7 @@ color: white;
 background:#191717;
 width: 100%;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 22px;
+font-size: 1.1em;
 text-decoration: none;
 position:relative;
 z-index: 1;
@@ -50,14 +49,12 @@ header ul li{
   display: inline-block;
 float: right;
 width:10%;
-
 }
 header ul li :hover  {
   background: #079dbd;
 transition: all .4s ease-in-out;
-
 }
-
+/*logo*/
 header ul img{
 width: 120px;
 position: fixed;
@@ -66,29 +63,22 @@ height: 120px;
 header ul img:hover{
   background: none;
 }
-
 header li:first-child{
   float: left;
   margin-top: 5px;
   margin-left: 20px;
   border: none;
 }
+
+
+
+
+
+
+/*active tab*/
 .active a{
   background-color: #079dbd;
-
 }
-.active img{
-  -webkit-filter: grayscale(100%) brightness(5);
-  filter: grayscale(100%) brightness(5);
-  opacity: 0.4;
-}
-.icons{
-  height: 40px;
-  width: 40px;
-opacity: 0.3;
-z-index: -1;
-}
-
 /* Content */
  main {
   display: flex;
@@ -99,7 +89,7 @@ color: white;
 min-height: 100%;
 margin-bottom: -47px;
 }
-
+/*Title of page*/
  main ul {
 
 padding-left: 120px;
@@ -114,6 +104,13 @@ font-weight: normal;
 margin-top: 50px;
 font-family: 'Kanit', sans-serif;
 }
+main h1{
+  font-size: 2em;
+}
+main h2{
+  font-size: 1.5em;
+}
+/*Profile picture*/
 main img {
   width: 250px;
   height: 250px;
@@ -127,7 +124,7 @@ footer{
   border-top: 3px solid #079dbd;
 width: 100%;
 }
-
+/*Icons for the footer*/
 .social {
 display: flex;
 justify-content: center;
@@ -152,10 +149,31 @@ transition: all .4s ease;
 transform: scale(1.2);
 
 }
+/*Copyright statement*/
 .copyright {
 color:white;
 border: none;
  font-family: 'Yanone Kaffeesatz', sans-serif;
  line-height: 40px;
- font-size: 20px;
+ font-size: 1em;
 }
+@media (max-width:731px) {
+  main img{
+    width:230px;
+    height:230px;
+  }
+  main ul{
+    font-size: 0.8em;
+  }
+}
+@media (max-width:634px)  {
+  main h1{
+    font-size: 1.4em;
+  }
+  main h2{
+    font-size: 1.2em;
+  }
+  main img{
+    width:200px;
+    height:200px;
+  }
