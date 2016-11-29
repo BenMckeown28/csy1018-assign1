@@ -10,7 +10,7 @@ html,body {
 }
 
 body{
-background: url("../images/background2.jpg");
+background: url("../images/background3.jpg");
 background-position:top;
 background-repeat: no-repeat;
 overflow-x: hidden;
@@ -20,8 +20,9 @@ width:: 100%;
 
 /*nav bar*/
 /*To change the size of the tabs*/
-header a{
-display:flex;;
+header h1{
+display:flex;
+font-weight: lighter;
 height: 50px;
 justify-content: center;
 align-items: center;
@@ -29,7 +30,7 @@ color: white;
 background:#191717;
 width: 100%;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 1.1em;
+font-size: 2.2vmin;
 text-decoration: none;
 position:relative;
 z-index: 1;
@@ -69,14 +70,8 @@ header li:first-child{
   margin-left: 20px;
   border: none;
 }
-
-
-
-
-
-
 /*active tab*/
-.active a{
+.active h1{
   background-color: #079dbd;
 }
 /* Content */
@@ -87,36 +82,32 @@ align-items: center;
 flex-direction: column;
 color: white;
 min-height: 100%;
-margin-bottom: -47px;
+margin-bottom: -4.7vmin;
 }
 /*Title of page*/
  main ul {
 
-padding-left: 120px;
-padding-right: 120px;
-padding-top: 20px;
-padding-bottom: 20px;
+padding:2vmin 12vmin;
   border: 2px white solid;
   list-style: none;
   text-align: center;
-border-radius: 40px;
+border-radius: 4vmin;
 font-weight: normal;
-margin-top: 50px;
+margin-top: 5vmin;
 font-family: 'Kanit', sans-serif;
+font-size: 1.5vmin;
 }
-main h1{
-  font-size: 2em;
-}
-main h2{
-  font-size: 1.5em;
-}
+
 /*Profile picture*/
 main img {
-  width: 250px;
-  height: 250px;
-  border-radius:300px;
+  width: 25vmin;
+  height: 25vmin;
+  border-radius:300vmin;
   border: 2px white solid;
 }
+
+
+
 
 /*footer*/
 footer{
@@ -133,13 +124,13 @@ justify-content: center;
 
 .social  li{
 list-style: none;
-padding: 0 40px;
-padding-bottom: : 20px;
+padding: 0 4vmin;
+padding-bottom: : 2vmin;
 
 }
 .social img{
-  width: 40px;
-  height: 40px;
+  width: 4vmin;
+  height: 4vmin;
 opacity: 0.8;
 justify-content: center;
 }
@@ -154,26 +145,6 @@ transform: scale(1.2);
 color:white;
 border: none;
  font-family: 'Yanone Kaffeesatz', sans-serif;
- line-height: 40px;
- font-size: 1em;
+ line-height: 4vmin;
+ font-size: 2vmin;
 }
-@media (max-width:731px) {
-  main img{
-    width:230px;
-    height:230px;
-  }
-  main ul{
-    font-size: 0.8em;
-  }
-}
-@media (max-width:634px)  {
-  main h1{
-    font-size: 1.4em;
-  }
-  main h2{
-    font-size: 1.2em;
-  }
-  main img{
-    width:200px;
-    height:200px;
-  }
