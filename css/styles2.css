@@ -1,5 +1,5 @@
 /*Name:Benjamin George Jong McKeown Student number:16424393*/
-/*Styling of the webpage*/
+/*Styling of the CV webpage*/
 
 *{
   margin:0;
@@ -74,43 +74,50 @@ header li:first-child{
 .active a{
   background-color: #079dbd;
 }
-nav i{
-  justify-content: flex-start;
-  display: flex;
-}
+
 /* Content */
- main {
+main{
   display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-color: white;
-min-height: 100%;
-margin-bottom: -4.7vmin;
-}
-/*Title of page*/
- main ul {
+  color: white;
+  flex-direction: column;
+  height:100%;
 
-padding:2vmin 12vmin;
-  border: 2px white solid;
-  list-style: none;
-  text-align: center;
-border-radius: 4vmin;
-font-weight: normal;
-margin-top: 5vmin;
+   justify-content: center;
+}
+main h1{
+  display: flex;
+  justify-content: center;
+margin-top: -15vmin;
 font-family: 'Kanit', sans-serif;
-font-size: 1.5vmin;
+text-decoration: underline;
+text-align: center;
 }
+main li{
+  justify-content: space-between;;
 
-/*Profile picture*/
-main img {
-  width: 25vmin;
-  height: 25vmin;
-  border-radius:300vmin;
-  border: 2px white solid;
 }
+main ul{
+  display: flex;
+  justify-content: space-around;;
+  list-style: none;
+  margin-top: 10vmin;
+margin-right: 20vmin;
 
+}
+main ul a{
 
+display: flex;
+  width: 60vmin;
+  height: 50vmin;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+main img{
+margin-left: 50vmin;
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 30vmin;
+
+}
 
 
 /*footer*/
