@@ -92,13 +92,9 @@ font-family: 'Kanit', sans-serif;
 text-decoration: underline;
 text-align: center;
 }
-main li{
-  justify-content: space-between;;
-
-}
 main ul{
   display: flex;
-  justify-content: space-around;;
+justify-content: center;
   list-style: none;
   margin-top: 10vmin;
 margin-right: 20vmin;
@@ -107,16 +103,23 @@ margin-right: 20vmin;
 main ul a{
 
 display: flex;
+font-size: 2vmin ;
   width: 60vmin;
-  height: 50vmin;
+  height: 40vmin;
+  padding: 20px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
+background-color:#191717;
+border-radius: 3vmin;
+border: 2px white solid;
 }
 main img{
-margin-left: 50vmin;
-  width: 20vmin;
-  height: 20vmin;
-  border-radius: 30vmin;
 
+  width: 35vmin;
+  height: 35vmin;
+  border-radius: 30vmin;
+margin-left: 15vmin;
+margin-top: 4vmin;
+border:white 2px solid;
 }
 
 
