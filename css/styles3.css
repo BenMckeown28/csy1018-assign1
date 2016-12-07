@@ -1,0 +1,173 @@
+/*Name:Benjamin George Jong McKeown Student number:16424393*/
+/*Styling of the webpage*/
+*{
+  margin:0;
+  padding:0;
+}
+html,body {
+  height:100%;
+}
+
+body{
+background: url("../images/background3.jpg");
+background-position:top;
+background-repeat: no-repeat;
+overflow-x: hidden;
+width:100%;
+
+}
+
+/*nav bar*/
+/*To change the size of the tabs*/
+header a{
+display:flex;
+font-weight: lighter;
+height: 50px;
+justify-content: center;
+align-items: center;
+color: white;
+background:#191717;
+width: 100%;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 2.2vmin;
+text-decoration: none;
+position:relative;
+z-index: 1;
+}
+header ul {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background:#191717;
+text-decoration: none;
+border-bottom: 3px solid #079dbd;
+}
+header ul li{
+  display: inline-block;
+float: right;
+width:10%;
+}
+header ul li :hover  {
+  background: #079dbd;
+transition: all .4s ease-in-out;
+}
+/*logo*/
+header ul img{
+width: 120px;
+position: fixed;
+height: 120px;
+}
+header ul img:hover{
+  background: none;
+}
+header li:first-child{
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: none;
+}
+/*active tab*/
+.active a{
+  background-color: #079dbd;
+}
+nav i{
+  justify-content: flex-start;
+  display: flex;
+}
+/* Content */
+ main {
+  display: flex;
+flex-direction: column;
+color: white;
+min-height: 100%;
+}
+main h1{
+  justify-content: center;;
+  align-items: center;
+  display: flex;
+padding-top: 10vmin;
+font-family: 'Kanit', sans-serif;
+font-size: 3vmin;
+}
+main a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vmin;
+margin-left: 25vmin;
+margin-right: 25vmin;
+padding: 5vmin;
+  background-color: rgba(25, 23, 23, 0.6);
+  border: 1px white solid;
+  border-radius: 3vmin;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2vmin;
+}
+main ul{
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  list-style: none;
+}
+main img{
+  border:1px white solid;
+  border-radius: 3vmin;
+  width:30vmin;
+  height:30vmin;
+}
+.second_row{
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.first_row{
+  margin-top: 2%;
+}
+
+
+/*footer*/
+footer{
+  background:#191717;
+  border-top: 3px solid #079dbd;
+width: 100%;
+}
+/*Icons for the footer*/
+.social {
+display: flex;
+justify-content: center;
+}
+
+
+.social  li{
+list-style: none;
+padding: 0 4vmin;
+padding-bottom: : 2vmin;
+
+}
+.social img{
+  width: 4vmin;
+  height: 4vmin;
+opacity: 0.8;
+justify-content: center;
+}
+.social img:hover{
+  opacity: 1;
+transition: all .4s ease;
+transform: scale(1.2);
+
+}
+/*Copyright statement*/
+.copyright {
+color:white;
+border: none;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ line-height: 4vmin;
+ font-size: 2vmin;
+}
