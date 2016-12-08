@@ -88,9 +88,9 @@ flex: -1;
 .info h1{
   display: flex;
   justify-content: center;
-margin-top: 7vmin;
+margin-top: 10vmin;
 font-family: 'Kanit', sans-serif;
-text-decoration: underline;
+
 text-align: center;
 font-size: 3vmin;
 }
