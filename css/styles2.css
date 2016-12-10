@@ -15,8 +15,8 @@ background: url("../images/background3.jpg");
 background-position:top;
 background-repeat: no-repeat;
 overflow-x: hidden;
-width:: 100%;
-
+width:100%;
+background-size: cover;
 }
 
 /*nav bar*/
@@ -31,10 +31,14 @@ color: white;
 background:#191717;
 width: 100%;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 2.2vmin;
+font-size:2.2vmin;
 text-decoration: none;
 position:relative;
 z-index: 1;
+}
+header p{
+  margin-left: 7%;
+  margin-right: 7%;
 }
 header ul {
   list-style: none;
@@ -75,24 +79,27 @@ header li:first-child{
 .active a{
   background-color: #079dbd;
 }
-
+nav i{
+  justify-content: flex-start;
+  display: flex;
+}
 /* Content */
+
 main{
   display: flex;
   color: white;
   flex-direction: column;
-  height:100%;
-flex: -1;
+height:100%;
    justify-content: center;
+
 }
 .info h1{
   display: flex;
   justify-content: center;
-margin-top: 10vmin;
 font-family: 'Kanit', sans-serif;
-
 text-align: center;
 font-size: 3vmin;
+margin-top: 5vmin;
 }
 .info ul{
 
@@ -100,8 +107,9 @@ line-height: 3.2vmin;
   display: flex;
 justify-content: center;
   list-style: none;
-  margin-top: 10vmin;
+  margin-top: 5vmin;
 margin-right: 20vmin;
+height: 100%;
 
 }
 .info ul a{
@@ -131,7 +139,7 @@ main h2{
   justify-content: center;
   font-family: 'Kanit', sans-serif;
   text-decoration: underline;
-margin-top: 5vmin;
+margin-top: 2vmin;
 font-size: 3vmin;}
 
 
@@ -164,25 +172,11 @@ float: left;
 list-style: none;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*footer*/
 footer{
   background:#191717;
   border-top: 3px solid #079dbd;
 width: 100%;
-margin-top: 10vmin;
-display: flex;
-justify-content: flex-end;
-flex-direction: column;
 }
 /*Icons for the footer*/
 .social {
@@ -194,12 +188,10 @@ justify-content: center;
 .social  li{
 list-style: none;
 padding: 0 4vmin;
-padding-bottom: : 2vmin;
-
 }
 .social img{
-  width: 4vmin;
-  height: 4vmin;
+  width: 2.45em;
+  height: 2.45em;
 opacity: 0.8;
 justify-content: center;
 }
@@ -211,9 +203,27 @@ transform: scale(1.2);
 }
 /*Copyright statement*/
 .copyright {
-color:white;
+color: white;
 border: none;
  font-family: 'Yanone Kaffeesatz', sans-serif;
- line-height: 4vmin;
- font-size: 2vmin;
+ line-height: 1.7em;
+ font-size: 	1.250em;
+}
+
+
+@media (max-width:593px) {
+
+header p{
+  display: none;
+}
+header a{
+  font-size: 1em;
+}
+.social img{
+  width: 1.45em;
+  height:1.45em;
+}
+.copyright{
+  font-size: 0.9em;
+}
 }

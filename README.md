@@ -1,7 +1,7 @@
 # csy1018-assign1
 ### Hours spent:
 ## Navigation diagrams
-[logo]: csy1018-assign1/images/navigation.png "Navigation diagram"
+![Navigation diagram](navigation.png)
 ## 13th November
 Today I started the assignment and began to do the initial commit through Gitbash, for today all I have done is set up all the files within the repositry.
 ## 21st November
@@ -34,3 +34,5 @@ I realised that the positioning of the skills part of the CV was slightly out of
 I then decided to add content and style it through CSS to the Biography page, I kept all the styling of all the other page’s headers and footers.
 ## 8th December
 I added all the content to the Contact page and styled it, I gave the icons on the page animations also.
+## 10th December
+I decided to change all the sizing of the font and the padding to em instead of having it as vmin
