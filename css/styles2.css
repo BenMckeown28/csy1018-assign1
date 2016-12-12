@@ -12,11 +12,13 @@ html , body {
 
 body{
 background: url("../images/background3.jpg");
-background-position:top;
 background-repeat: no-repeat;
 overflow-x: hidden;
 width:100%;
-background-size: cover;
+background-size:1920px 1500px;
+background-position: top;
+
+
 }
 
 /*nav bar*/
@@ -31,14 +33,10 @@ color: white;
 background:#191717;
 width: 100%;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size:2.2vmin;
+font-size: 2.2vmin;
 text-decoration: none;
 position:relative;
 z-index: 1;
-}
-header p{
-  margin-left: 7%;
-  margin-right: 7%;
 }
 header ul {
   list-style: none;
@@ -50,6 +48,10 @@ header ul {
   background:#191717;
 text-decoration: none;
 border-bottom: 3px solid #079dbd;
+}
+header p{
+  margin-left: 5%;
+  margin-right: 5%;
 }
 header ul li{
   display: inline-block;
@@ -79,84 +81,73 @@ header li:first-child{
 .active a{
   background-color: #079dbd;
 }
-nav i{
-  justify-content: flex-start;
-  display: flex;
-}
+
 /* Content */
 
 main{
   display: flex;
   color: white;
+height:150%;
+flex-direction: column;
+
+}
+.info{
   flex-direction: column;
-height:100%;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 
 }
 .info h1{
-  display: flex;
-  justify-content: center;
 font-family: 'Kanit', sans-serif;
 text-align: center;
-font-size: 3vmin;
-margin-top: 5vmin;
+font-size: 1.4em;
+margin-top: 4.250em;
 }
-.info ul{
 
-line-height: 3.2vmin;
-  display: flex;
-justify-content: center;
-  list-style: none;
-  margin-top: 5vmin;
-margin-right: 20vmin;
-height: 100%;
-
-}
-.info ul a{
-
-display: flex;
-font-size: 2vmin ;
-  width: 60vmin;
-  height: 40vmin;
-  padding: 20px;
+.info a{
+  flex-direction: column;
+margin-top: 10%;
+font-size:  1.2em;
+  width: 40em;
+  height: 20em;
+  padding: 2em;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 background-color:rgba(25, 23, 23, 0.6);
-border-radius: 3vmin;
+border-radius: 1em;
 border: 2px white solid;
-
+}
+.info h2{
+  font-size: 1.5em;
+  font-weight: lighter;
 }
 .info img{
 
-  width: 30vmin;
-  height: 30vmin;
-  border-radius: 30vmin;
-margin-left: 15vmin;
-margin-top: 8vmin;
+  width: 15.750em;
+  height: 15.750em;
+  border-radius: 10em;
 border:white 2px solid;
+margin-top: 5%;
+margin-left: 35%;
+margin-right: 35%;
+
 }
-main h2{
-  display: flex;
-  justify-content: center;
-  font-family: 'Kanit', sans-serif;
-  text-decoration: underline;
-margin-top: 2vmin;
-font-size: 3vmin;}
 
-
+/*Skills*/
 .columns{
   display: flex;
 justify-content: space-around;
 text-align: center;
+flex-direction: row;
 
 }
 .columns {
   font-family:  'Yanone Kaffeesatz', sans-serif;
-margin-top: 5vmin;
-margin-left: 5vmin;
-margin-right: 5vmin;
+margin-top:5%;
+margin-left: 2em;
+margin-right: 2em;
 padding: 20px;
-
-font-size: 2vmin;
+font-size: 1.4em;
 background-color: rgba(25, 23, 23, 0.6);
 font-family:  'Yanone Kaffeesatz', sans-serif;
 border-radius: 3vmin;
@@ -227,3 +218,69 @@ header a{
   font-size: 0.9em;
 }
 }
+@media (max-width:700px) {
+  .columns{
+    flex-direction: column;
+    padding: 5px;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1em;
+  }
+}
+  @media (max-width:866px) {
+    .info a{
+    font-size:  1em;
+      width: 35em;
+      height: 20em;
+      padding: 2em;
+    }
+    .info h2{
+      font-size: 1.4em;
+    }
+    .info img{
+      width: 12.750em;
+      height: 12.750em;
+    }
+    }
+    @media (max-width:649px) {
+      .info a{
+      font-size:  0.8em;
+        width: 30em;
+        height: 25em;
+        padding: 2em;
+      }
+      .info h2{
+        font-size: 1.6em;
+      }
+      .info img{
+        width: 10.750em;
+        height: 10.750em;
+        margin-left: 30%;
+        margin-right: 30%;
+      }
+      }
+      @media (max-width:459px) {
+        .info a{
+        font-size:  0.8em;
+          width: 18em;
+          height: 25em;
+          padding: 2em;
+        }
+        .info img{
+          margin-left: 20%;
+          margin-right: 20%;
+        }
+        .info h1{
+          margin-top: 5em;
+        }
+        .columns{
+          margin-top: 3em;
+          padding-top: 5em;
+          padding-bottom: 5em;
+
+        }
+        }
+
+        @media (max-width:399px) {
+        .social{line-height: 4em;
+        }

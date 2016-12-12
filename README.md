@@ -1,7 +1,7 @@
 # csy1018-assign1
 ### Hours spent:
 ## Navigation diagrams
-![Navigation diagram](navigation.png)
+! [Navigation diagram] (navigation.png)
 ## 13th November
 Today I started the assignment and began to do the initial commit through Gitbash, for today all I have done is set up all the files within the repositry.
 ## 21st November
@@ -35,4 +35,6 @@ I then decided to add content and style it through CSS to the Biography page, I 
 ## 8th December
 I added all the content to the Contact page and styled it, I gave the icons on the page animations also.
 ## 10th December
-I decided to change all the sizing of the font and the padding to em instead of having it as vmin
+I decided to change all the sizing of the font and the padding to em instead of having it as Vmin. I also added media queries to the index page for the header and the footer.
+## 12th December
+I redesigned the Cv page of the website in more of a centralised format to make it simpler to read, also I changed the media queries for this so it suits the new design. I also added some media queries to the bio gallery page where the images automatically change the display when minimised. I also started to develop the media queries for the home page of the web page.

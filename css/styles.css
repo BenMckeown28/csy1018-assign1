@@ -4,6 +4,7 @@
 *{
   margin:0;
   padding:0;
+
 }
 html,body {
   height:100%;
@@ -81,10 +82,7 @@ header li:first-child{
 .active a{
   background-color: #079dbd;
 }
-nav i{
-  justify-content: flex-start;
-  display: flex;
-}
+
 /* Content */
  main {
   display: flex;
@@ -93,6 +91,7 @@ align-items: center;
 flex-direction: column;
 color: white;
 min-height: 100%;
+
 
 }
 /*Title of page*/
@@ -158,9 +157,6 @@ border: none;
  line-height: 1.7em;
  font-size: 	1.250em;
 }
-
-
-
 /*Change the icon size of the footer and header*/
 @media (max-width:771px) {
 main ul{
@@ -190,19 +186,17 @@ header a{
 .social img{
   width: 1.45em;
   height:1.45em;
-
 }
 .copyright{
   font-size: 0.9em;
 }
 }
 @media (max-width:437px) {
-main ul{
-padding:1.050em 4.500em;
-font-size: 0.4em;
-}
 main img{
   width:8.625em;
   height:8.625em;
 }
+}
+@media (max-width:399px) {
+.social{line-height: 4em;
 }
