@@ -10,19 +10,18 @@ html,body {
   background-size: cover;
 }
 body{
-background: url("../images/background3.jpg");
+background: #6AA6D6;
 background-position:top;
 overflow-x: hidden;
 background-repeat: no-repeat;
-width:100%;
-height: 100%;
 background-size: cover;
 
 }
 
+
 /*nav bar*/
 /*To change the size of the tabs*/
-
+header{min-height: 10%;}
 header a{
 display:flex;
 font-weight: lighter;
@@ -81,32 +80,29 @@ header p{
 .active a{
   background-color: #079dbd;
 }
-nav i{
-  justify-content: flex-start;
-  display: flex;
-}
+
 /* Content */
  main {
   display: flex;
 flex-direction: column;
 color: white;
-min-height: 100%;
-}
+min-height: 80%;}
 main h1{
   position: block;
-  justify-content: center;;
+  justify-content: center;
   align-items: center;
   display: flex;
-padding-top: 5em;
+padding-top: 3em;
 font-family: 'Kanit', sans-serif;
-font-size: 1.4em;
+font-size: 1.7em;
 }
 main a{
   display: flex;
   justify-content: space-around;
   align-items:center;
   margin-top: 2em;
-
+margin-left: 10%;
+margin-right: 10%;
 padding: 4em;
   background-color: rgba(25, 23, 23, 0.6);
   border: 1px white solid;
@@ -122,6 +118,7 @@ margin-left: 15%;
 margin-right: 15%;
 margin-top: 2%;
 margin-bottom: 2%;
+z-index: -1;
 }
 .list-item
 {display:flex;
@@ -131,25 +128,22 @@ justify-content: space-around;
 .list-content {
    display: flex;
    flex-direction: column;
-
    padding: 1em;
-
 }
 
 
-main img{
+.list img{
   border:1px white solid;
   border-radius: 3vmin;
   width:15rem;
   height:15rem;
-}
+  z-index: 0;
+position:static;;}
 
 
-main img:hover{
+.list img:hover{
   transition: all .4s ease;
-
-  transform: scale(1.1);
-  box-shadow: 0px 0px 20px 3px #079dbd;
+  transform: scale(1.2);
 }
 
 
@@ -158,6 +152,7 @@ footer{
   background:#191717;
   border-top: 3px solid #079dbd;
 width: 100%;
+height:5%;
 }
 /*Icons for the footer*/
 .social {
@@ -192,24 +187,58 @@ border: none;
  line-height: 4vmin;
  font-size: 2vmin;
 }
-
-
+/*Change the icon size of the footer and header*/
+@media (max-width:771px) {
+main ul{
+padding:1.150em 5.500em;
+font-size: 0.8em;
+}
+main img{
+  width:12.625em;
+  height:12.625em;
+}
+}
 @media (max-width:593px) {
-
+main ul{
+padding:1.050em 4.500em;
+font-size: 0.6em;
+}
+main img{
+  width:10.625em;
+  height:10.625em;
+}
 header p{
   display: none;
 }
 header a{
   font-size: 1em;
 }
+footer{
+  height:7%;
+}
 .social img{
-  width: 1.45em;
-  height:1.45em;
+  width: 2em;
+  height:2em;
 }
 .copyright{
   font-size: 0.9em;
+  line-height: 1.5em;
 }
 }
+/**/
+@media (max-width:864px){
+  main a{
+    font-size: 1rem;
+    padding: 2em;
+  }
+}
+@media (max-width:374px){
+main h1{
+  margin-top: 1em;
+}
+.list{
+}}
+
 @media (max-width:399px) {
 .social{line-height: 4em;
 }

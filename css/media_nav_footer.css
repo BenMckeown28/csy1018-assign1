@@ -1,0 +1,34 @@
+/*Change the icon size of the footer and header*/
+@media (max-width:771px) {
+main ul{
+padding:1.150em 5.500em;
+font-size: 0.8em;
+}
+main img{
+  width:12.625em;
+  height:12.625em;
+}
+}
+@media (max-width:593px) {
+main ul{
+padding:1.050em 4.500em;
+font-size: 0.6em;
+}
+main img{
+  width:10.625em;
+  height:10.625em;
+}
+header p{
+  display: none;
+}
+header a{
+  font-size: 1em;
+}
+.social img{
+  width: 1.45em;
+  height:1.45em;
+}
+.copyright{
+  font-size: 0.9em;
+}
+}

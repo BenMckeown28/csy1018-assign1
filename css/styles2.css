@@ -11,11 +11,11 @@ html , body {
 }
 
 body{
-background: url("../images/background3.jpg");
-background-repeat: no-repeat;
+background:#6AA6D6;
+
 overflow-x: hidden;
 width:100%;
-background-size:1920px 1500px;
+background-size:cover;
 background-position: top;
 
 
@@ -101,17 +101,18 @@ flex-direction: column;
 .info h1{
 font-family: 'Kanit', sans-serif;
 text-align: center;
-font-size: 1.4em;
-margin-top: 4.250em;
+font-size: 1.7em;
+margin-top: 3em;
 }
 
 .info a{
   flex-direction: column;
-margin-top: 10%;
+margin-top: 5%;
+
 font-size:  1.2em;
   width: 40em;
   height: 20em;
-  padding: 2em;
+  padding: 3em;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 background-color:rgba(25, 23, 23, 0.6);
 border-radius: 1em;
@@ -120,6 +121,7 @@ border: 2px white solid;
 .info h2{
   font-size: 1.5em;
   font-weight: lighter;
+  margin-top: -0.2em;
 }
 .info img{
 
@@ -139,15 +141,12 @@ margin-right: 35%;
 justify-content: space-around;
 text-align: center;
 flex-direction: row;
-
-}
-.columns {
-  font-family:  'Yanone Kaffeesatz', sans-serif;
-margin-top:5%;
+font-family:  'Yanone Kaffeesatz', sans-serif;
+margin-top:6%;
 margin-left: 2em;
 margin-right: 2em;
 padding: 20px;
-font-size: 1.4em;
+font-size: 1.1em;
 background-color: rgba(25, 23, 23, 0.6);
 font-family:  'Yanone Kaffeesatz', sans-serif;
 border-radius: 3vmin;
@@ -201,9 +200,26 @@ border: none;
  font-size: 	1.250em;
 }
 
-
+/*Change the icon size of the footer and header*/
+@media (max-width:771px) {
+main ul{
+padding:1.150em 5.500em;
+font-size: 0.8em;
+}
+main img{
+  width:12.625em;
+  height:12.625em;
+}
+}
 @media (max-width:593px) {
-
+main ul{
+padding:1.050em 4.500em;
+font-size: 0.6em;
+}
+main img{
+  width:10.625em;
+  height:10.625em;
+}
 header p{
   display: none;
 }
@@ -218,16 +234,16 @@ header a{
   font-size: 0.9em;
 }
 }
+/**/
 @media (max-width:700px) {
   .columns{
     flex-direction: column;
     padding: 5px;
-    margin-left: 5em;
-    margin-right: 5em;
-    font-size: 1em;
+margin-bottom: 10%;
+    font-size: 1.4em;
   }
 }
-  @media (max-width:866px) {
+  @media (max-width:886px) {
     .info a{
     font-size:  1em;
       width: 35em;
@@ -271,12 +287,13 @@ header a{
           margin-right: 20%;
         }
         .info h1{
-          margin-top: 5em;
+          margin-top: 4em;
         }
         .columns{
           margin-top: 3em;
-          padding-top: 5em;
-          padding-bottom: 5em;
+          padding-top: 3em;
+          padding-bottom: 3em;
+
 
         }
         }
