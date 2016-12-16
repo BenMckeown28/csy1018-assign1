@@ -40,3 +40,5 @@ I decided to change all the sizing of the font and the padding to em instead of 
 I redesigned the Cv page of the website in more of a centralised format to make it simpler to read, also I changed the media queries for this so it suits the new design. I also added some media queries to the bio gallery page where the images automatically change the display when minimised. I also started to develop the media queries for the home page of the web page.
 ## 15th December
 I added more media queries to the rest of the page so that its more responsive to desktop use.
+##16th December
+I decided to change the colour of most of the content of the web pages so that they suit the material design specification.

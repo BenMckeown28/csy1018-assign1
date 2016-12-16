@@ -10,7 +10,7 @@ html,body {
   background-size: cover;
 }
 body{
-background: #6AA6D6;
+background:#bdbebf;
 background-position:top;
 overflow-x: hidden;
 background-repeat: no-repeat;
@@ -85,16 +85,21 @@ header p{
  main {
   display: flex;
 flex-direction: column;
-color: white;
 min-height: 80%;}
 main h1{
+  color: black;
   position: block;
   justify-content: center;
   align-items: center;
   display: flex;
-padding-top: 3em;
+padding-top: 1.5em;
+padding-bottom: 1em;
+margin-top: 1em;
 font-family: 'Kanit', sans-serif;
 font-size: 1.7em;
+background-color: white;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
+
 }
 main a{
   display: flex;
@@ -104,9 +109,9 @@ main a{
 margin-left: 10%;
 margin-right: 10%;
 padding: 4em;
-  background-color: rgba(25, 23, 23, 0.6);
+  background-color: white;
   border: 1px white solid;
-  border-radius: 2em;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2rem;
 }
@@ -119,6 +124,7 @@ margin-right: 15%;
 margin-top: 2%;
 margin-bottom: 2%;
 z-index: -1;
+
 }
 .list-item
 {display:flex;
@@ -133,8 +139,8 @@ justify-content: space-around;
 
 
 .list img{
-  border:1px white solid;
-  border-radius: 3vmin;
+  border:5px white solid;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
   width:15rem;
   height:15rem;
   z-index: 0;

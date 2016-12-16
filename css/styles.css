@@ -11,7 +11,7 @@ html,body {
 }
 
 body{
-background:#6AA6D6;
+background:#bdbebf;
 overflow-x: hidden;
 height:100%;
 top: 0;
@@ -87,7 +87,7 @@ header li:first-child{
 justify-content: center;
 align-items: center;
 flex-direction: column;
-color: white;
+color:black;
 min-height: 100%;
 
 
@@ -96,15 +96,14 @@ min-height: 100%;
  main ul {
 
 padding:1.250em 7.500em;
-  border: 2px white solid;
   list-style: none;
   text-align: center;
-border-radius: 4vmin;
 font-weight: normal;
 margin-top: 5vmin;
 font-family: 'Kanit', sans-serif;
 font-size: 0.938em;
-background-color: rgba(25, 23, 23, 0.6);
+background-color:white;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 }
 
 /*Profile picture*/
@@ -112,6 +111,7 @@ main img {
   width: 15.625em;
   height:15.625em;
   border-radius:300vmin;
+  box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
   border: 2px white solid;
 }
 

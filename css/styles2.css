@@ -11,8 +11,7 @@ html , body {
 }
 
 body{
-background:#6AA6D6;
-
+background:#bdbebf;
 overflow-x: hidden;
 width:100%;
 background-size:cover;
@@ -86,7 +85,7 @@ header li:first-child{
 
 main{
   display: flex;
-  color: white;
+  color: black;
 height:150%;
 flex-direction: column;
 
@@ -98,11 +97,20 @@ flex-direction: column;
   align-self: center;
 
 }
-.info h1{
+main h1{
+  color: black;
+  position: block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+padding-top: 1.5em;
+padding-bottom: 1em;
+margin-top: 1em;
 font-family: 'Kanit', sans-serif;
-text-align: center;
 font-size: 1.7em;
-margin-top: 3em;
+background-color: white;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
+
 }
 
 .info a{
@@ -114,29 +122,32 @@ font-size:  1.2em;
   height: 20em;
   padding: 3em;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-background-color:rgba(25, 23, 23, 0.6);
-border-radius: 1em;
+background-color:white;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 border: 2px white solid;
 }
 .info h2{
   font-size: 1.5em;
   font-weight: lighter;
   margin-top: -0.2em;
+  color: #079dbd;
 }
 .info img{
 
   width: 15.750em;
   height: 15.750em;
   border-radius: 10em;
-border:white 2px solid;
+
 margin-top: 5%;
 margin-left: 35%;
 margin-right: 35%;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 
 }
 
 /*Skills*/
 .columns{
+  box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
   display: flex;
 justify-content: space-around;
 text-align: center;
@@ -147,15 +158,16 @@ margin-left: 2em;
 margin-right: 2em;
 padding: 20px;
 font-size: 1.1em;
-background-color: rgba(25, 23, 23, 0.6);
+background-color: white;
 font-family:  'Yanone Kaffeesatz', sans-serif;
-border-radius: 3vmin;
+
 border:2px white solid;
 }
 
 .columns h3{
     font-family: 'Kanit', sans-serif;
     text-decoration: underline;
+    color: #079dbd;
  }
 .columns ul{
 float: left;

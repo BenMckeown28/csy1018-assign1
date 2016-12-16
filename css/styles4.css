@@ -7,7 +7,7 @@
 
 
 body{
-background:  #6AA6D6;
+background:#bdbebf;
 background-position:top;
 background-repeat: no-repeat;
 overflow-x: hidden;
@@ -81,18 +81,23 @@ header p{
 main {
   display: flex;
 flex-direction: column;
-color: white;
+color: black;
 height: 100%;
 justify-content: center;
 }
 main h1{
+  color: black;
   position: block;
   justify-content: center;
   align-items: center;
   display: flex;
-padding-top: 3em;
+padding-top: 1.5em;
+padding-bottom: 1em;
+margin-top: 1em;
 font-family: 'Kanit', sans-serif;
 font-size: 1.7em;
+background-color: white;
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 }
 main ul{
 
@@ -112,19 +117,19 @@ main h2{
   justify-content: center;
   align-items: center;
   margin-top: 4em;
-  background-color: rgba(25, 23, 23, 0.6);
-  border: 1px white solid;
-  border-radius: 2em;
+  background-color:white;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   margin-left: 8em;
   margin-right: 8em;
   padding: 1em;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: lighter;
+  box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 }
 main img{
   width:5em;
-  height: 5em;;
+  height: 5em;
+
 }
 main img:hover{
   transition: all .4s ease;
@@ -135,8 +140,8 @@ form {
   border: solid white 1px;
 width: 30rem;
 padding-bottom: 2em;
-border-radius: 3em;
-background-color: rgba(25, 23, 23, 0.6);
+box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
+background-color: white;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .form{
@@ -151,9 +156,11 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 .form-title {
   margin-top: 0;
   text-align: center;
-  color:white;
+  margin-top: 1em;
+  font-weight: lighter;
   text-decoration: underline;
-  margin-top: -3em;
+  color: #079dbd;
+
 }
 .form-name{
   margin-left: 8%;
