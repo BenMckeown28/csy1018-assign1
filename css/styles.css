@@ -147,14 +147,7 @@ transition: all .4s ease;
 transform: scale(1.2);
 
 }
-/*Copyright statement*/
-.copyright {
-color: white;
-border: none;
- font-family: 'Yanone Kaffeesatz', sans-serif;
- line-height: 1.7em;
- font-size: 	1.250em;
-}
+
 
 
 
@@ -177,14 +170,7 @@ and (max-device-width:732px)
   header a{
     font-size: 1em;
   }
-  .social img{
-    width: 1.45em;
-    height:1.45em;
-  }
-  .copyright{
-    font-size: 0.8em;
-    line-height: -6em;
-  }
+}
 
 
 
@@ -213,14 +199,7 @@ and (max-device-width:732px)
     header a{
       font-size: 1em;
     }
-    .social img{
-      width: 1.45em;
-      height:1.45em;
-    }
-    .copyright{
-      font-size: 0.8em;
-      line-height: 4em;
-    }
+
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -244,14 +223,7 @@ and (max-device-width:732px)
     header a{
       font-size: 1em;
     }
-    .social img{
-      width: 1.45em;
-      height:1.45em;
-    }
-    .copyright{
-      font-size: 0.9em;
-      line-height: 3.5em;
-    }
+
 }
 /* ----------- iPhone 6+ ----------- */
 
@@ -277,16 +249,6 @@ and (max-device-width:732px)
     .social li{
       margin-top: 0.5em;
     }
-    .social img{
-      width: 1.45em;
-      height:1.45em;
-
-    }
-    .copyright{
-      font-size: 0.9em;
-      margin-top: -1em;
-    }
-
 }
 
 
@@ -295,7 +257,4 @@ main img{
   width:8.625em;
   height:8.625em;
 }
-}
-@media (max-width:399px) {
-.social{line-height: 4em;
 }

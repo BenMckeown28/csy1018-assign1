@@ -100,19 +100,20 @@ font-size: 1.7em;
 background-color: white;
 box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 }
-main ul{
+.links{
 
-  display: inline-flex;
 
-justify-content: space-around;
+}
+.links ul{
+  position: relative;
+display: flex;
+justify-content: space-around;;
   flex-direction: row;
   list-style: none;
 align-items: center;
-padding-right: 35%;
 padding-left: 30%;
+padding-right: 30%;
 margin-top: 5%;
-z-index: -1;
-
 }
 main h2{
   display: flex;
@@ -124,18 +125,16 @@ main h2{
   margin-left: 8em;
   margin-right: 8em;
   padding: 1em;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: lighter;
   box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 }
-main img{
+.links img{
   width:5em;
   height: 5em;
-  filter:drop-shadow(1px 1px 1px #222);
-
-
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,.5));
 }
-main img:hover{
+.links img:hover{
   transition: all .4s ease;
   transform: scale(1.2);
 }
@@ -164,33 +163,25 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: lighter;
   text-decoration: underline;
   color: #079dbd;
+  font-size: 1.7em;
 
 }
-.form-name{
-  margin-left: 8%;
+.form-group{
   font-size: 1.2em;
+  font-weight: lighter;
+
 }
-.message{
-  margin-top:1em;
-  margin-left: 7%;
-    font-size: 1.2em;
-}
-.form-number{
-  margin-left: 3%;
-  margin-top: 1em;
-  font-size: 1.2em;
-}
+
 
 
 label {
   display: inline-block;
   vertical-align: top;
   width: 60%;
-  margin-bottom: 1em;
 }
 button{
-  margin-top: 2em;
-  margin-left: 8.5em;
+  margin-top: 3em;
+
   background-color: #079dbd;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 250px;

@@ -194,25 +194,7 @@ border: none;
  font-size: 2vmin;
 }
 /*Change the icon size of the footer and header*/
-@media (max-width:771px) {
-main ul{
-padding:1.150em 5.500em;
-font-size: 0.8em;
-}
-main img{
-  width:12.625em;
-  height:12.625em;
-}
-}
 @media (max-width:593px) {
-main ul{
-padding:1.050em 4.500em;
-font-size: 0.6em;
-}
-main img{
-  width:10.625em;
-  height:10.625em;
-}
 header p{
   display: none;
 }
@@ -243,20 +225,51 @@ main h1{
   margin-top: 1em;
 }
 .list{
-}}
+}
+}
 
 @media (max-width:399px) {
 .social{line-height: 4em;
 }
 }
-@media all and (min-width: 50em) {
+@media  (min-width: 800px) {
   .list-item {
     width: 50%;
   }
 
 }
-@media all and (min-width: 70em) {
+@media  (min-width: 1120px) {
   .list-item {
     width: 33.33%;
   }
 }
+  @media (max-width:459px) {
+    main h1{
+      margin-top:4em;
+    }
+
+
+/*Mobile phone queries*/
+/* Iphone 5 Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header p{
+      display: none;
+    }
+    header a{
+      font-size: 1em;
+    }
+    footer{
+      height:7%;
+    }
+    .social img{
+      width: 2em;
+      height:2em;
+    }
+    .copyright{
+      font-size: 0.9em;
+      line-height: 1.5em;
+    }
+    }

@@ -213,16 +213,7 @@ border: none;
 }
 
 /*Change the icon size of the footer and header*/
-@media (max-width:771px) {
-main ul{
-padding:1.150em 5.500em;
-font-size: 0.8em;
-}
-main img{
-  width:12.625em;
-  height:12.625em;
-}
-}
+
 @media (max-width:593px) {
 main ul{
 padding:1.050em 4.500em;
@@ -238,13 +229,6 @@ header p{
 header a{
   font-size: 1em;
 }
-.social img{
-  width: 1.45em;
-  height:1.45em;
-}
-.copyright{
-  font-size: 0.9em;
-}
 }
 /**/
 @media (max-width:700px) {
@@ -252,7 +236,7 @@ header a{
     flex-direction: column;
     padding: 5px;
 margin-bottom: 10%;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 }
   @media (max-width:886px) {
@@ -289,6 +273,7 @@ margin-bottom: 10%;
       }
       @media (max-width:459px) {
         .info a{
+          margin-top: 3em;
         font-size:  0.8em;
           width: 18em;
           height: 25em;
@@ -298,18 +283,128 @@ margin-bottom: 10%;
           margin-left: 20%;
           margin-right: 20%;
         }
-        .info h1{
+
+        .columns{
+          margin-top: 2em;
+
+        }
+        main h1{
           margin-top: 4em;
         }
-        .columns{
-          margin-top: 3em;
-          padding-top: 3em;
-          padding-bottom: 3em;
-
-
+        .info img{
+          margin-top: 2em;
         }
         }
 
-        @media (max-width:399px) {
-        .social{line-height: 4em;
-        }
+        /* Iphone 5 Portrait and Landscape */
+        @media only screen
+          and (min-device-width: 320px)
+          and (max-device-width: 568px)
+          and (-webkit-min-device-pixel-ratio: 2) {
+          main h1{
+          font-size: 1.2em;
+        margin-top: 5.5em;
+      }
+          .info img{
+margin-top: 2em;
+  width: 6em;
+  height: 6em;
+  margin-left: 32%;
+  margin-right: 30%;
+}
+.columns{
+  font-size: 1em;
+margin-right: 7.5%;
+margin-left: 7.5%;
+align-items: center;
+flex-direction: row;
+}
+.columns ul{
+  margin-left: -10%;
+  margin-right: -10%;
+}
+.info h2{margin-top: 0.1em;}
+.info a{
+  font-size: 0.7em;
+width:20em;
+margin-top:2em;
+padding-bottom: 4em;
+}
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    main{
+      height:130%;
+    }
+    .info img{
+      margin-top: 3em;
+    }
+    .columns{
+      margin-top: 1em;
+      margin-left: 17%;
+      margin-right: 17%;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+}
+/* ----------- Galaxy S5----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    main{
+      height:130%;
+    }
+    .info img{
+      margin-top:11em;
+    }
+    .columns{
+      margin-top: 12em;
+      margin-left: 15.5%;
+      margin-right: 15.5%;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+}
+  /* ----------- iPhone 6+ ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+      .info img{
+        margin-top: 2em;
+      }
+
+      .columns{margin-top: 2em;
+      margin-left: 17.5%;
+    margin-right: 17.5%;}
+}
+
+/*Ipad*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .info img{
+      margin-top: 5em;
+    }
+    .info a{
+      margin-top: 5em;
+    }
+    .columns{
+      margin-top: 5em;
+    }
+    main{
+      height: 120%;
+    }
