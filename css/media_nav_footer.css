@@ -1,27 +1,91 @@
 /*Change the icon size of the footer and header*/
-@media (max-width:771px) {
-main ul{
-padding:1.150em 5.500em;
-font-size: 0.8em;
-}
-main img{
-  width:12.625em;
-  height:12.625em;
-}
-}
-@media (max-width:593px) {
-main ul{
-padding:1.050em 4.500em;
-font-size: 0.6em;
-}
-main img{
-  width:10.625em;
-  height:10.625em;
-}
+
+@media (max-width:700px) {
 header p{
   display: none;
 }
 header a{
-  font-size: 1em;
+  font-size: 3.2em;
 }
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+html , body {
+  height:100%;
+  width: 100%;
+}
+
+body{
+background:#bdbebf;
+overflow-x: hidden;
+width:100%;
+background-size:cover;
+background-position: top;
+
+
+}
+
+/*nav bar*/
+/*To change the size of the tabs*/
+header a{
+display:flex;
+font-weight: lighter;
+height: 50px;
+justify-content: center;
+align-items: center;
+color: white;
+background:#191717;
+width: 100%;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 1.2em;
+text-decoration: none;
+position:relative;
+z-index: 1;
+}
+header ul {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background:#191717;
+text-decoration: none;
+border-bottom: 3px solid #079dbd;
+}
+header p{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+header ul li{
+  display: inline-block;
+float: right;
+width:10%;
+}
+header ul li :hover  {
+  background: #079dbd;
+transition: all .4s ease-in-out;
+}
+/*logo*/
+header ul img{
+width: 120px;
+position: fixed;
+height: 120px;
+}
+header ul img:hover{
+  background: none;
+}
+header li:first-child{
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+  border: none;
+}
+/*active tab*/
+.active a{
+  background-color: #079dbd;
+  box-shadow:2px 4px 15px 0px rgba(50, 50, 50, 0.87);
 }

@@ -1,88 +1,7 @@
 /*Name:Benjamin George Jong McKeown Student number:16424393*/
 /*Styling of the CV webpage*/
 
-*{
-  margin:0;
-  padding:0;
-}
-html , body {
-  height:100%;
-  width: 100%;
-}
-
-body{
-background:#bdbebf;
-overflow-x: hidden;
-width:100%;
-background-size:cover;
-background-position: top;
-
-
-}
-
-/*nav bar*/
-/*To change the size of the tabs*/
-header a{
-display:flex;
-font-weight: lighter;
-height: 50px;
-justify-content: center;
-align-items: center;
-color: white;
-background:#191717;
-width: 100%;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 2.2vmin;
-text-decoration: none;
-position:relative;
-z-index: 1;
-}
-header ul {
-  list-style: none;
-  position: fixed;
-  top: 0;
-  margin: 0;
-  width: 100%;
-  height: 50px;
-  background:#191717;
-text-decoration: none;
-border-bottom: 3px solid #079dbd;
-}
-header p{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-header ul li{
-  display: inline-block;
-float: right;
-width:10%;
-}
-header ul li :hover  {
-  background: #079dbd;
-transition: all .4s ease-in-out;
-}
-/*logo*/
-header ul img{
-width: 120px;
-position: fixed;
-height: 120px;
-}
-header ul img:hover{
-  background: none;
-}
-header li:first-child{
-  float: left;
-  margin-top: 5px;
-  margin-left: 20px;
-  border: none;
-}
-/*active tab*/
-.active a{
-  background-color: #079dbd;
-}
-
 /* Content */
-
 main{
   display: flex;
   color: black;
@@ -212,25 +131,7 @@ border: none;
  font-size: 	1.250em;
 }
 
-/*Change the icon size of the footer and header*/
 
-@media (max-width:593px) {
-main ul{
-padding:1.050em 4.500em;
-font-size: 0.6em;
-}
-main img{
-  width:10.625em;
-  height:10.625em;
-}
-header p{
-  display: none;
-}
-header a{
-  font-size: 1em;
-}
-}
-/**/
 @media (max-width:700px) {
   .columns{
     flex-direction: column;
@@ -301,6 +202,9 @@ margin-bottom: 10%;
           and (min-device-width: 320px)
           and (max-device-width: 568px)
           and (-webkit-min-device-pixel-ratio: 2) {
+            main{
+              height:190%;
+            }
           main h1{
           font-size: 1.2em;
         margin-top: 5.5em;
@@ -317,7 +221,7 @@ margin-top: 2em;
 margin-right: 7.5%;
 margin-left: 7.5%;
 align-items: center;
-flex-direction: row;
+
 }
 .columns ul{
   margin-left: -10%;
@@ -331,80 +235,3 @@ margin-top:2em;
 padding-bottom: 4em;
 }
 }
-/* ----------- iPhone 6 ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    main{
-      height:130%;
-    }
-    .info img{
-      margin-top: 3em;
-    }
-    .columns{
-      margin-top: 1em;
-      margin-left: 17%;
-      margin-right: 17%;
-      padding-top: 2em;
-      padding-bottom: 2em;
-    }
-
-}
-/* ----------- Galaxy S5----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 360px)
-  and (max-device-width: 640px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    main{
-      height:130%;
-    }
-    .info img{
-      margin-top:11em;
-    }
-    .columns{
-      margin-top: 12em;
-      margin-left: 15.5%;
-      margin-right: 15.5%;
-      padding-top: 2em;
-      padding-bottom: 2em;
-    }
-
-}
-  /* ----------- iPhone 6+ ----------- */
-
-  /* Portrait and Landscape */
-  @media only screen
-    and (min-device-width: 414px)
-    and (max-device-width: 736px)
-    and (-webkit-min-device-pixel-ratio: 3) {
-      .info img{
-        margin-top: 2em;
-      }
-
-      .columns{margin-top: 2em;
-      margin-left: 17.5%;
-    margin-right: 17.5%;}
-}
-
-/*Ipad*/
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .info img{
-      margin-top: 5em;
-    }
-    .info a{
-      margin-top: 5em;
-    }
-    .columns{
-      margin-top: 5em;
-    }
-    main{
-      height: 120%;
-    }

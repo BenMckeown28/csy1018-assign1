@@ -42,3 +42,5 @@ I redesigned the Cv page of the website in more of a centralised format to make 
 I added more media queries to the rest of the page so that its more responsive to desktop use.
 ##16th December
 I decided to change the colour of most of the content of the web pages so that they suit the material design specification.
+##19th December
+I updated the media queries for the index, Cv and bio page so that its fully compatible through mobile devices. I decided to get rid of some of the content in the footer as it was not needed and was serving problems with the formating of the resizing of the web page.
