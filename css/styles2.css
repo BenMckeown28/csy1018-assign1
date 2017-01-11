@@ -173,7 +173,7 @@ margin-bottom: 10%;
 
 
         /* Iphone 5 Portrait and Landscape */
-        @media only screen
+        @media screen
           and (min-device-width: 320px)
           and (max-device-width: 568px)
           and (-webkit-min-device-pixel-ratio: 2) {

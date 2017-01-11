@@ -1,8 +1,8 @@
 # Benjamin McKeown -CSY1018 Assignment 1- Student Number 16424393
-
+https://benmckeown28.github.io/csy1018-assign1/index.html Link to website
 # csy1018-assign1
 
-During the assignment, I have discussed and asked rasing questions between two other students who live in my flat:
+During the assignment, I have discussed and asked raising questions between two other students who live in my flat:
 Alfie England
 Brook smith
 These questions included content about the design briefs requirements and restrictions which we needed to follow.
@@ -74,3 +74,23 @@ I decided to change the colour of most of the content of the web pages so that t
 I updated the media queries for the index, Cv and bio page so that its fully compatible through mobile devices. I decided to get rid of some of the content in the footer as it was not needed and was serving problems with the formatting of the resizing of the web page.
 ##11 January
 I decided to make the form of the contact page bigger so that it was easily viewable to all users. The form has media queries associated with it so it can be used on mobile or minimised desktop view.
+
+
+#Html checker
+All HTML validation was done through the website: https://validator.w3.org/
+
+! [Home page Html checker] (https://i.gyazo.com/f06fcd11d81ac98036127ce565e01548.png)
+! [CV page Html Checker] (https://i.gyazo.com/32778649e7e103a4126b66ff178a576b.png)
+! [Biography page Html Checker] (https://i.gyazo.com/ae099e87e05aba97478b78e39be04185.png)
+! [Contact page Html Checker] (https://i.gyazo.com/38ddb3265a0704ac7239f7950bdacb12.png)
+
+For the html checker, I ran the programme through each of the different web pages of the website. For a lot of the pages, the main issue was simple me forgetting to put <alt> tags onto the end of image tags, if I hadn’t put these tags on to the end, if someone was to open my website and the images wouldn’t load they would not know what was supposed to be there.
+
+#CSS checker
+All CSS validation was done through the website: https://validator.w3.org/
+! [Home page CSS checker] (https://i.gyazo.com/2cd978b0ea1d9c3da50893a70bfcdd76.png)
+! [cv CSS checker] (https://i.gyazo.com/c20b80fdff4e592353854a9519171f1f.png)
+! [Bio CSS checker] (https://i.gyazo.com/beb89a9f291f5f2c7ceb11f802a5bd1b.png)
+! [Contact CSS checker] (https://i.gyazo.com/ab2602687b3e43846a25baed9d7ec4b1.png)
+
+After I completed the changes which I had to make towards the HTML of the webpages, I then began to start correcting the CSS of the web pages. There were quite a few errors on each of the pages, most of them were to do with the media queries of the webpages, particularly the mobile phone media queries. Other errors were to do with simple code which shouldn’t have been placed in that area e.g. position: block;

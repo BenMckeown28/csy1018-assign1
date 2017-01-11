@@ -9,7 +9,6 @@ min-height: 100%;
 }
 main h1{
   color: black;
-  position: block;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -102,7 +101,7 @@ justify-content: center;
 transition: all .4s ease;
 transform: scale(1.2);
 }
-}
+
 
 
 
@@ -132,7 +131,7 @@ transform: scale(1.2);
     /* ----------- iPhone 6 ----------- */
 
     /* Portrait and Landscape */
-    @media only screen
+    @media screen
       and (min-device-width: 375px)
       and (max-device-width: 667px)
       and (-webkit-min-device-pixel-ratio: 2) {
@@ -143,9 +142,9 @@ transform: scale(1.2);
     main a{
       font-size: 1em;
     }
-
     }
-    @media only screen
+
+    @media screen
       and (min-device-width: 320px)
       and (max-device-width: 568px)
       and (-webkit-min-device-pixel-ratio: 2){
@@ -156,7 +155,4 @@ transform: scale(1.2);
       main a{
       font-size: 1em;
       }
-
-      }
-
       }

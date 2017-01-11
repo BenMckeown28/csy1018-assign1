@@ -85,7 +85,7 @@ main img{
 }
 
 /*nexus5X Portrait and landscape*/
-@media only screen
+@media screen
 and (min-device-width:412px)
 and (max-device-width:732px)
   and (-webkit-min-device-pixel-ratio: 3) {
@@ -103,10 +103,10 @@ and (max-device-width:732px)
   header a{
     font-size: 1em;
   }
-}
+
 }
 /* Iphone 5 Portrait and Landscape */
-@media only screen
+@media screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -130,7 +130,7 @@ and (max-device-width:732px)
 /* ----------- iPhone 6 ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+@media screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -153,7 +153,7 @@ and (max-device-width:732px)
 /* ----------- iPhone 6+ ----------- */
 
 /* Portrait and Landscape */
-@media only screen
+@media screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
