@@ -15,15 +15,15 @@
   <body>
 <div class="wrap">
 <header>
+  <nav>
 <ul>
 <li><img src="images/logo.png" /></li>
-<li class="active"><a href="contact.html"><i class="fa fa-envelope-o " aria-hidden="true"></i><p>
-
-Contact</p></a></li>
+<li class="active"><a href="contact.html"><i class="fa fa-envelope-o " aria-hidden="true"></i><p>Contact</p></a></li>
 <li><a href="bio.html"><i class="fa fa-user " aria-hidden="true"></i><p>Bio</p></a></li>
 <li><a href="cv.html"><i class="fa fa-file-text  " aria-hidden="true"></i><p>CV</p></a></li>
 <li><a href="index.html"><i class=" fa fa-home  " aria-hidden="false"></i>&nbsp;<p>Home</p></a></li>
 </ul>
+</nav>
 </header>
 </div>
 <main>
@@ -45,40 +45,35 @@ Contact</p></a></li>
   <form>
         <h3 class="form-title">Send me an email</h3>
 
-    <div class="form group">
-          <div class="form-group">
-            <label for="name">Name:</label>
-              <input type="name" name="name" id="name"
-                placeholder="Benjamin Mckeown" multiple
-              ></input>
-
   <div class="form-group">
+
+    <label for="name">Name:</label>
+    <input type="name" name="name" id="name"
+    placeholder="Benjamin Mckeown" multiple
+    ></input>
+
     <label for="email">Your email address:</label>
       <input type="email" name="email" id="email"
         placeholder="example@example.com" multiple
       ></input>
 
-  </div>
-
-    <div class="form-group">
       <label>Message:</label>
       <textarea rows="8" cols="30" <input type="message" name="message" id="message"
         placeholder="Hi Ben, Whats the code to link the html to css?" multiple
       ></textarea>
 
-    </div>
-    <div class="form-group">
       <label for="phoneno">Phone Number</label>
       <input type="email" name="email" id="email"
         placeholder="01234567890" multiple
       ></input>
-    </div>
-  </div>
+
+        </div>
+
     <!-- Submit Button -->
-    <button>Submit</button>
+<div class="buttonwrap">
+<button>Submit</button>
 </div>
     </form>
-
   </div>
 </main>
 

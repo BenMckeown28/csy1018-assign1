@@ -34,10 +34,6 @@ main img {
   box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
 
 }
-
-
-
-
 /*footer*/
 footer{
   background:#191717;
@@ -108,14 +104,6 @@ and (max-device-width:732px)
     font-size: 1em;
   }
 }
-
-
-
-
-
-
-
-
 }
 /* Iphone 5 Portrait and Landscape */
 @media only screen

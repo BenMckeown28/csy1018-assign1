@@ -5,7 +5,8 @@
  main {
   display: flex;
 flex-direction: column;
-;}
+min-height: 100%;
+}
 main h1{
   color: black;
   position: block;
@@ -43,7 +44,7 @@ margin-left: 15%;
 margin-right: 15%;
 margin-top: 2%;
 margin-bottom: 2%;
-z-index: -1;
+z-index: 3;
 
 }
 .list-item
@@ -63,13 +64,14 @@ justify-content: space-around;
 box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
   width:15rem;
   height:15rem;
-  z-index: 0;
+
 position:static;}
 
 
-.list-content img:hover{
+main img:hover{
   transition: all .4s ease;
-  transform: scale(1.2);
+  transform: scale(1.15);
+
 }
 
 /*footer*/

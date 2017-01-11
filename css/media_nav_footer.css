@@ -1,5 +1,4 @@
 /*Change the icon size of the footer and header*/
-
 @media (max-width:700px) {
 header p{
   display: none;
@@ -8,7 +7,6 @@ header a{
   font-size: 3.2em;
 }
 }
-
 *{
   margin:0;
   padding:0;
@@ -30,6 +28,9 @@ background-position: top;
 
 /*nav bar*/
 /*To change the size of the tabs*/
+header ul{
+  z-index: 5
+}
 header a{
 display:flex;
 font-weight: lighter;
@@ -42,8 +43,6 @@ width: 100%;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 1.2em;
 text-decoration: none;
-position:relative;
-z-index: 1;
 }
 header ul {
   list-style: none;
@@ -65,27 +64,62 @@ header ul li{
 float: right;
 width:10%;
 }
-header ul li :hover  {
+nav ul li a:hover  {
   background: #079dbd;
 transition: all .4s ease-in-out;
 }
 /*logo*/
-header ul img{
+
+nav ul  img{
 width: 120px;
-position: fixed;
+position: relative;
 height: 120px;
+background-color: none;
 }
-header ul img:hover{
+nav ul img:hover{
+  background: none;
+}
+header li:first-child:hover{
   background: none;
 }
 header li:first-child{
   float: left;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 20px;
-  border: none;
+
 }
 /*active tab*/
 .active a{
   background-color: #079dbd;
   box-shadow:2px 4px 15px 0px rgba(50, 50, 50, 0.87);
+}
+
+/*footer*/
+footer{
+  background:#191717;
+  border-top: 3px solid #079dbd;
+width: 100%;
+}
+/*Icons for the footer*/
+.social {
+display: flex;
+justify-content: center;
+}
+
+
+.social  li{
+list-style: none;
+padding: 0 4vmin;
+}
+.social img{
+  width: 2.45em;
+  height: 2.45em;
+opacity: 0.8;
+justify-content: center;
+}
+.social img:hover{
+  opacity: 1;
+transition: all .4s ease;
+transform: scale(1.2);
+
 }
