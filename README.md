@@ -1,19 +1,17 @@
 # Benjamin McKeown -CSY1018 Assignment 1- Student Number 16424393
 https://benmckeown28.github.io/csy1018-assign1/index.html Link to website
 # csy1018-assign1
-
 During the assignment, I have discussed and asked raising questions between two other students who live in my flat:
 Alfie England
 Brook smith
 These questions included content about the design briefs requirements and restrictions which we needed to follow.
-I also have been to a couple of the support sessions to ask Tom Rose about some problems I was having with some of the media queries for specific pages of my website.
+I also have been to a couple of the support sessions to ask Tom Rose about some problems I was having with some of the media queries for specific pages of my website and material design in general.
 ### Hours spent:
-
-On average I spent around 35+ hours on the assignment, but it’s too difficult to give an exact figure because there were times when I had to research for specific code.
+On average I spent around 35+ hours on the assignment, but it’s too difficult to give an exact figure because there were times when I had to research for specific code or doing other things towards the other assignment.
 ## Navigation diagrams
-
 ! [Navigation diagram] (https://gyazo.com/e2615e2b60ab5bc622ec988e603ba2af)
 ! [Navigation diagram 2] (https://gyazo.com/b82e71152c8e337127bf6910899976b6)
+In terms of the navigation within my website I want it so that the user is able to user a menu bar along the top which will allow them to
 
 ## wireframes/designs
 ! [Logo] (https://i.gyazo.com/ece19aabd5135049092feebdda9ca8df.png)
@@ -94,3 +92,6 @@ All CSS validation was done through the website: https://validator.w3.org/
 ! [Contact CSS checker] (https://i.gyazo.com/ab2602687b3e43846a25baed9d7ec4b1.png)
 
 After I completed the changes which I had to make towards the HTML of the webpages, I then began to start correcting the CSS of the web pages. There were quite a few errors on each of the pages, most of them were to do with the media queries of the webpages, particularly the mobile phone media queries. Other errors were to do with simple code which shouldn’t have been placed in that area e.g. position: block;
+With the mobile queries I attempted to fix the problems to do with the "-webkit-device-pixel-ratio" which were for the mobile queries specifically, however after lots of testing no matter what the error kept popping up when i ran it through the CSS checker. This may be an error within CSS itself or the validator.
+
+As with the font awesome errors in each of the different pages, it seems that this is a common problem which occurs when you put the web page through the checker.

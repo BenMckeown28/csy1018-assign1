@@ -52,9 +52,10 @@ margin-right:5%;
   width:5em;
   height: 5em;
   filter: drop-shadow(0 1px 2px rgba(0,0,0,1));
+  transition: all .4s ease;
 }
 .links img:hover{
-  transition: all .4s ease;
+
   transform: scale(1.2);
 }
 
@@ -109,14 +110,24 @@ padding-top: 1%;
 }
 button{
   margin-top: 2%;
-  background-color: #079dbd;
+  background-color:rgba(182, 183, 186,0.2) ;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 250px;
-  color: white;
+  color: black;
   display: flex;
 justify-content: center;
 padding: 1em;
+font-size: 1.2em;
+border:3px solid #079dbd;
+transition: all .4s ease;
 }
+button:hover{
+  background-color: #079dbd;
+  transform: scale(1.05);
+  color: white;
+
+}
+
 .buttonwrap{
   display: flex;
   justify-content:center;}

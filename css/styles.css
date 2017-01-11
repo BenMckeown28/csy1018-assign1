@@ -104,7 +104,6 @@ and (max-device-width:732px)
     font-size: 1em;
   }
 
-}
 /* Iphone 5 Portrait and Landscape */
 @media screen
   and (min-device-width: 320px)
