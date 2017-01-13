@@ -6,7 +6,7 @@ https://github.com/BenMckeown28/csy1018-assign1 Link to the repository
 
 # csy1018-assign1
 During the assignment, I have discussed and asked raising questions between two other students who live in my flat:
-Alfie England
+Alfie England and
 Brook smith.
 These questions included content about the design briefs requirements and restrictions which we needed to follow.
 I also have been to a couple of the support sessions to ask Tom Rose about some problems I was having with some of the media queries for specific pages of my website and material design in general.
