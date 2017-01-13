@@ -7,6 +7,7 @@
 flex-direction: column;
 min-height: 100%;
 }
+/*Header for content*/
 main h1{
   color: black;
   justify-content: center;
@@ -19,8 +20,8 @@ font-family: 'Kanit', sans-serif;
 font-size: 1.7em;
 background-color: white;
 box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
-
 }
+/*introduction*/
 main a{
   display: flex;
   justify-content: space-around;
@@ -35,8 +36,9 @@ box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.2rem;
 }
-
-.list{
+/*image gallery*/
+/*George Marthsoukos (2016) Using Modern CSS to build a responsive image grid. Avaliable from : https://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/ (Accessed date 12/12/16)*/
+.gallery{
   display: flex;
   flex-wrap: wrap;
 margin-left: 15%;
@@ -44,28 +46,29 @@ margin-right: 15%;
 margin-top: 2%;
 margin-bottom: 2%;
 z-index: 3;
-
 }
-.list-item
+
+.gallery-item
 {display:flex;
 width: 100%;
 justify-content: space-around;
 }
-.list-content {
+.gallery-content {
    display: flex;
    flex-direction: column;
    padding: 1em;
 }
 
-
-.list-item img{
+/*induvidual image styling*/
+.gallery-item img{
   border:5px white solid;
 box-shadow:2px 0px 15px 0px rgba(50, 50, 50, 0.87);
   width:15rem;
   height:15rem;
 position:static;
 }
-
+/*Hover over effect*/
+/*Sara Vieira (2014) 8 simple CSS3 transitions that will wow your users http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ Accessed by (28/12/16)*/
 main img{
   transition: all .4s ease;
 }
@@ -75,33 +78,34 @@ main img:hover{
 
 
 
-
+/*Default media queries for the images to change rows and columns when screen size is minimised*/
+/*George Marthsoukos (2016) Using Modern CSS to build a responsive image grid. Avaliable from : https://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/ (Accessed date 12/12/16)*/
+/*Small screen size- 1 column of 6 images*/
 @media (max-width:374px){
-
-.list{
+.gallery{
+  width: 75%;
 }
 }
-
-
+/*Medium screen size -2 columns of 3 images*/
 @media  (min-width: 800px) {
-  .list-item {
+  .gallery-item {
     width: 50%;
   }
-
 }
+/*Large screen size - 3 columns of 2 images*/
 @media  (min-width: 1120px) {
-  .list-item {
+  .gallery-item {
     width: 33.33%;
   }
 }
+/*Brings the header under the logo in the top left, so no overlay*/
   @media (max-width:459px) {
     main h1{
       margin-top:4em;
     }
-
-    /* iPhone 6 */
-
-    /* Portrait and Landscape */
+/*Media queries for mobile phones*/
+/* larger screen mobile phone */
+/* Portrait and Landscape */
     @media screen
       and (min-device-width: 375px)
       and (max-device-width: 667px)
@@ -115,6 +119,8 @@ main img:hover{
     }
     }
 
+/*Smaller screen mobile phone*/
+/*Portrait and landscape*/
     @media screen
       and (min-device-width: 320px)
       and (max-device-width: 568px)

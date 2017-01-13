@@ -63,7 +63,7 @@ transition: all .4s ease;
 transform: scale(1.2);
 
 }
-
+/*Default Media queries*/
 @media (max-width:771px) {
 main ul{
 padding:1.150em 5.500em;
@@ -74,6 +74,7 @@ main img{
   height:12.625em;
 }
 }
+
 @media (max-width:700px) {
 main ul{
 padding:1.050em 4.500em;
@@ -84,6 +85,14 @@ main img{
   height:10.625em;
 }
 
+@media (max-width:437px) {
+main img{
+  width:8.625em;
+  height:8.625em;
+}
+}
+
+/*Mobile phone queries*/
 /*nexus5X Portrait and landscape*/
 @media screen
 and (min-device-width:412px)
@@ -126,8 +135,7 @@ and (max-device-width:732px)
 
 }
 
-/* ----------- iPhone 6 ----------- */
-
+/* iPhone 6  */
 /* Portrait and Landscape */
 @media screen
   and (min-device-width: 375px)
@@ -149,8 +157,8 @@ and (max-device-width:732px)
     }
 
 }
-/* ----------- iPhone 6+ ----------- */
 
+/*iPhone 6+*/
 /* Portrait and Landscape */
 @media screen
   and (min-device-width: 414px)
@@ -173,12 +181,4 @@ and (max-device-width:732px)
     .social li{
       margin-top: 0.5em;
     }
-}
-
-
-@media (max-width:437px) {
-main img{
-  width:8.625em;
-  height:8.625em;
-}
 }

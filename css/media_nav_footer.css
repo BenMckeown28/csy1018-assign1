@@ -1,16 +1,12 @@
-/*Change the icon size of the footer and header*/
-@media (max-width:700px) {
-header p{
-  display: none;
-}
-header a{
-  font-size: 3.2em;
-}
-}
+/*Name:Benjamin George Jong McKeown Student number:16424393*/
+/*Styling of the header and footer*/
+
 *{
   margin:0;
   padding:0;
 }
+
+
 html , body {
   height:100%;
   width: 100%;
@@ -93,6 +89,7 @@ header li:first-child{
 }
 
 /*footer*/
+/*Joss (2012) And STAY Down! How To Keep Your Footer At The Bottom Of The Page With CSS . Avaliable from http://cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/ (Accessed date 12/12/16)*/
 footer{
   background:#191717;
   border-top: 3px solid #079dbd;
@@ -104,8 +101,6 @@ display: flex;
 justify-content: center;
 
 }
-
-
 .social  li{
 list-style: none;
 padding: 0 4vmin;
@@ -117,9 +112,20 @@ opacity: 0.8;
 justify-content: center;
   transition: all .4s ease;
 }
+/*Sara Vieira (2014) 8 simple CSS3 transitions that will wow your users http://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ Accessed by (28/12/16)*/
 .social img:hover{
   opacity: 1;
 
 transform: scale(1.2);
 
+}
+
+/*Change the icon size of the footer and header*/
+@media (max-width:700px) {
+header p{
+  display: none;
+}
+header a{
+  font-size: 3.2em;
+}
 }
