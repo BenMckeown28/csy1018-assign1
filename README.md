@@ -13,7 +13,9 @@ I also have been to a couple of the support sessions to ask Tom Rose about some 
 
 ### Hours spent:
 On average I spent around 35+ hours on the assignment, but it’s too difficult to give an exact figure because there were times when I had to research for specific code or doing other things towards the other assignment.
+
 #Design
+
 ## Navigation diagrams
 
 ![Navigation diagram ](https://i.gyazo.com/b82e71152c8e337127bf6910899976b6.png)
@@ -21,7 +23,17 @@ On average I spent around 35+ hours on the assignment, but it’s too difficult 
 In terms of the navigation within my website I want it so that the user is able to user a menu bar along the top which will allow them to navigate to the area which they want to.
 This is only design so its subject to change during production of the product if there are any easier solutions.
 
-## wireframes/designs
+## Wireframes/Designs
+### Wireframes
+![Home](https://i.gyazo.com/66a04c704b475d9761d6c2aff04777a1.png)
+
+![CV](https://i.gyazo.com/cdf0785e529d2f12003a861bc407ba90.png)
+
+![Bio](https://i.gyazo.com/ec138a1992fa22b0eb85817f70b47a35.png)
+
+![contact](https://i.gyazo.com/9600876b4961792bcabd08d8a2486fe4.png)
+
+###Designs
 ![Logo](https://i.gyazo.com/ece19aabd5135049092feebdda9ca8df.png)
 
 ![Home Page](https://i.gyazo.com/a6ddf44be367ac22cfa080de79ba6224.png)
