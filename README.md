@@ -1,4 +1,5 @@
 # Benjamin McKeown -CSY1018 Assignment 1- Student Number 16424393
+##Submission Date:14/01/2017
 
 https://benmckeown28.github.io/csy1018-assign1/index.html Link to website
 
@@ -17,15 +18,15 @@ On average I spent around 35+ hours on the assignment, but it’s too difficult 
 #Design
 
 ## Navigation diagrams
+![Navigation diagrams](https://i.gyazo.com/b82e71152c8e337127bf6910899976b6.png)
 
-! [Navigation diagram] (https://i.gyazo.com/b82e71152c8e337127bf6910899976b6.png)
 
 In terms of the navigation within my website I want it so that the user can use a menu bar along the top which will allow them to navigate to the area which they want to.
 This is only design so it’s subject to change during production of the product if there are any easier solutions.
 
 ## Wireframes/Designs
 ### Wireframes
-! [Home](https://i.gyazo.com/66a04c704b475d9761d6c2aff04777a1.png)
+![Home](https://i.gyazo.com/66a04c704b475d9761d6c2aff04777a1.png)
 
 ![CV](https://i.gyazo.com/cdf0785e529d2f12003a861bc407ba90.png)
 
