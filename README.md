@@ -6,7 +6,7 @@ https://github.com/BenMckeown28/csy1018-assign1 Link to the repository
 
 # csy1018-assign1
 During the assignment, I have discussed and asked raising questions between two other students who live in my flat:
-Alfie England
+Alfie England and
 Brook smith.
 These questions included content about the design briefs requirements and restrictions which we needed to follow.
 I also have been to a couple of the support sessions to ask Tom Rose about some problems I was having with some of the media queries for specific pages of my website and material design in general.
@@ -18,14 +18,14 @@ On average I spent around 35+ hours on the assignment, but it’s too difficult 
 
 ## Navigation diagrams
 
-![Navigation diagram ](https://i.gyazo.com/b82e71152c8e337127bf6910899976b6.png)
+! [Navigation diagram] (https://i.gyazo.com/b82e71152c8e337127bf6910899976b6.png)
 
-In terms of the navigation within my website I want it so that the user is able to user a menu bar along the top which will allow them to navigate to the area which they want to.
-This is only design so its subject to change during production of the product if there are any easier solutions.
+In terms of the navigation within my website I want it so that the user can use a menu bar along the top which will allow them to navigate to the area which they want to.
+This is only design so it’s subject to change during production of the product if there are any easier solutions.
 
 ## Wireframes/Designs
 ### Wireframes
-![Home](https://i.gyazo.com/66a04c704b475d9761d6c2aff04777a1.png)
+! [Home](https://i.gyazo.com/66a04c704b475d9761d6c2aff04777a1.png)
 
 ![CV](https://i.gyazo.com/cdf0785e529d2f12003a861bc407ba90.png)
 
@@ -52,18 +52,16 @@ make user interactivity more enjoyable.
 #Work Log
 
 ## 13th November
-Today I started the assignment and began to do the initial commit through Gitbash, for today all I have done is set up all the files within the repository.
+I did the initial commit through Gitbash, for today all I have done is set up all the files within the repository.
 
 ## 21st November
 
-Began starting to set up the navigation menu so that it has the content of the links between the different pages, also I created the logo and included it
-within the design of the navbar.
+Began starting to set up the navigation menu so that it has the content of the links between the different pages, also I created the logo and included it within the design of the navbar.
 
 ##22nd November
 I then began starting to develop the menu being responsive, for now as the user drags the navigation bar smaller in the horizontal direction, the text within the
 navbar will get smaller.
- I also replaced the house Icon so that it was simpler to recognise.
- I also added content to the index page of the website
+ I replaced the house Icon so that it was simpler to recognise. I also added content to the index page of the website
 ##23rd November
  I started to create the content for the footer of the website, this included the social links/icons and the copyright statement to say that it was developed
 by me also I coded the background of the footer as well to match the rest of the colour scheme within the website.
@@ -87,9 +85,9 @@ I then decided to add content and style it through CSS to the Biography page, I 
 ## 8th December
 I added all the content to the Contact page and styled it, I gave the icons on the page animations also.
 ## 10th December
-I decided to change all the sizing of the font and the padding to em instead of having it as Vmin. I also added media queries to the index page for the header and the footer.
+I decided to change all the sizing of the font and the padding to EM instead of having it as Vmin. I also added media queries to the index page for the header and the footer.
 ## 12th December
-I redesigned the Cv page of the website in more of a centralised format to make it simpler to read, also I changed the media queries for this so it suits the new design. I also added some media queries to the bio gallery page where the images automatically change the display when minimised. I also started to develop the media queries for the home page of the web page.
+I redesigned the CV page of the website in more of a centralised format to make it simpler to read, also I changed the media queries for this so it suits the new design. I also added some media queries to the bio gallery page where the images automatically change the display when minimised. I also started to develop the media queries for the home page of the web page.
 ## 15th December
 I added more media queries to the rest of the page so that its more responsive to desktop use.
 ##16th December
@@ -125,13 +123,13 @@ All CSS validation was done through the website: https://validator.w3.org/
 ![Contact CSS checker](https://i.gyazo.com/ab2602687b3e43846a25baed9d7ec4b1.png)
 
 After I completed the changes which I had to make towards the HTML of the webpages, I then began to start correcting the CSS of the web pages. There were quite a few errors on each of the pages, most of them were to do with the media queries of the webpages, particularly the mobile phone media queries. Other errors were to do with simple code which shouldn’t have been placed in that area e.g. position: block;
-With the mobile queries I attempted to fix the problems to do with the "-webkit-device-pixel-ratio" which were for the mobile queries specifically, however after lots of testing no matter what the error kept popping up when i ran it through the CSS checker. This may be an error within CSS itself or the validator.
+With the mobile queries, I attempted to fix the problems to do with the "-webkit-device-pixel-ratio" which were for the mobile queries specifically, however after lots of testing no matter what the error kept popping up when I ran it through the CSS checker. This may be an error within CSS itself or the validator.
 
 As with the font awesome errors in each of the different pages, it seems that this is a common problem which occurs when you put the web page through the checker.
 
 ##13/01/2017
-I added some comments to a lot of the code to reference certain pieces, and I formatted the code so its legible to the user and so easier to understand . I also optimised my images to reduce loading time of the website so its benefitial to all sort of users with different internet speeds.
+I added some comments to a lot of the code to reference certain pieces, and I formatted the code so its legible to the user and so easier to understand. I also optimised my images to reduce loading time of the website so its beneficial to all sort of users with different internet speeds.
 
 ![Image optimiser ](https://i.gyazo.com/d879ba4ec2b662ae6b28cc06d21146ae.png)
 
-As you can see the image optimiser (http://optimizilla.com/) dramatically decreased the file size of each image .
+As you can see the image optimiser (http://optimizilla.com/) dramatically decreased the file size of each image.
